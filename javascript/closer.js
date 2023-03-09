@@ -1,15 +1,3 @@
-function a(num) {
-  return function () {
-    return num++;
-  };
-}
-
-// let b = a(1);
-// let c = a(1);
-// let d = a(1);
-
-// console.log(b, c, d);
-
 function makeCounter(num) {
   return function () {
     return parseInt(num);
